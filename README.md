@@ -7,7 +7,7 @@ Project ini bertujuan untuk menganalisis data penggunaan bahan bakar mobil dan m
 - Memberikan rekomendasi mobil dengan efisiensi bahan bakar tinggi sebagai pilihan kendaraan yang lebih ramah lingkungan dan ekonomis berdasarkan hasil analisis data dan prediksi model.
 
 ## Dataset
-Dataset yang digunakan berasal dari https://github.com/hananlu/basicPython/blob/master/Dataset/cars2.json
+Dataset yang digunakan berasal dari https://github.com/hananlu/basicPython/blob/master/Dataset/cars2.json dan https://github.com/hananlu/basicPython/blob/master/Dataset/cars.xlsx
 
 ## Struktur Folder
 ...
