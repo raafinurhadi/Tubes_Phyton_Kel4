@@ -10,7 +10,14 @@ Project ini bertujuan untuk menganalisis data penggunaan bahan bakar mobil dan m
 Dataset yang digunakan berasal dari https://github.com/hananlu/basicPython/blob/master/Dataset/cars2.json dan https://github.com/hananlu/basicPython/blob/master/Dataset/cars.xlsx
 
 ## Struktur Folder
-...
+project-root/
+│
+├── data/
+├── notebooks/ 
+├── src/ 
+├── visuals/ 
+├── README.md 
+└── requirements.txt
 
 ## Coretan
 https://www.canva.com/design/DAG7mBzojS8/lrzYnMPsFRdp7nWtoJKuUQ/edit?utm_content=DAG7mBzojS8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
