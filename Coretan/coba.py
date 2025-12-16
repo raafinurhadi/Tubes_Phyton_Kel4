@@ -6,9 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 
-
-file_path = "X:\Code\Tubes_Phyton_Kel4\Dataset\cars.xlsx"
-data_df = pd.read_excel(file_path)
+data_df = pd.read_excel("X:\Code\Tubes_Phyton_Kel4\Dataset\cars.xlsx")
 
 
 median_mpg = data_df['MPG_City'].median()
