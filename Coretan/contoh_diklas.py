@@ -43,14 +43,14 @@ model.fit(X_train,y_train)
 
 y_pred= model.predict(X_test)
 acc=accuracy_score(y_test,y_pred)
-print(f"Akurasi : {acc}")
+print(f"Akurasi : {acc:.2f}")
 # print(model)
 # sepallength=int(input("Masukkan Panjang Sepal : "))
 # sepalwidth=int(input("Masukkan Lebar Sepal : "))
 # petallength=int(input("Masukkan Panjang Petal : "))
 # petalwidth=int(input("Masukkan Lebar Petal : "))
 
-databaru=[[4,4,4,4],[4,3,2,1]]
+databaru=[[4,4,4,4],[4,3,2,2]]
 preds=model.predict(databaru)
 # print(preds)
 predsspecies=[iris.target_names[p] for p in preds]
