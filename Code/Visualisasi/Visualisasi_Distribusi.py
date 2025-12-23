@@ -6,8 +6,8 @@ df = pd.read_csv("X:\Code\Tubes_Phyton_Kel4\Dataset\Processed\cars_processed.csv
 
 sns.histplot(
     data=df,
-    x='Miles_per_Gallon',
-    hue='Irit_Boros',
+    x='MPG',
+    hue='Irit atau Boros',
     bins=20,
     kde=True
 )

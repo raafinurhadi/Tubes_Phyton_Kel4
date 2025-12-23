@@ -6,8 +6,8 @@ from sklearn.metrics import accuracy_score
 
 df = pd.read_csv("X:\Code\Tubes_Phyton_Kel4\Dataset\Processed\cars_processed.csv")
 
-X = df[['Horsepower', 'Weight_in_lbs', 'Cylinders']]
-y = df['Irit_Boros']
+X = df[['Tenaga Mesin', 'Berat Dalam LBS', 'Kapasitas Mesin']]
+y = df['Irit atau Boros']
 
 X_train, X_test, y_train, y_test = train_test_split(
     X, y, test_size=0.2, random_state=1
