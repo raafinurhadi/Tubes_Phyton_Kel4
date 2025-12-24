@@ -26,7 +26,7 @@ print("Confusion Matrix:")
 print(cm)
 
 plt.figure(figsize=(6, 5))
-sns.heatmap(cm, annot=True, fmt='d', cmap='Greens',
+sns.heatmap(cm, annot=True, fmt='d', cmap='Blues',
 xticklabels=['BOROS', 'IRIT'], yticklabels=['BOROS', 'IRIT'])
 plt.xlabel('Prediksi Model')
 plt.ylabel('Ground Truth')
